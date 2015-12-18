@@ -3,13 +3,15 @@ Type: Package
 Title: Mango Solutions Training Datasets
 Version: 1.0-6
 Date: 2015-07-07
-Author: Mango Solutions
+Author: Mango Solutions <rin24hours@mango-solutions.com>
 Maintainer: Aimee Gott <agott@mango-solutions.com>
-Contact: Mango Solutions <info@mango-solutions.com>
+Contact: Mango Solutions <rin24hours@mango-solutions.com>
 Description: Datasets designed to be used in conjunction with Mango Solutions
-    training materials and the book SAMS Teach Yourself R in 24 Hours.
+    training materials and the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
+URL: http://www.mango-solutions.com
 Depends:
     R (>= 2.10.0)
 License: GPL-2
 LazyLoad: yes
 LazyData: yes
+RoxygenNote: 5.0.1
