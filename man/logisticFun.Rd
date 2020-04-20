@@ -24,4 +24,3 @@ Simple logistic function as used in Mango training materials
 logisticFun(Dose = 50)
 
 }
-

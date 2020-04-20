@@ -3,8 +3,10 @@
 \docType{data}
 \name{messyData}
 \alias{messyData}
+\alias{messy_data}
 \title{Messy clinical trial data}
-\format{A data frame with 33 observations on the following 7 variables. 
+\format{
+A data frame with 33 observations on the following 7 variables. 
 This data has been designed to show reshaping/tidying of data.
 \describe{
   \item{\code{Subject}}{A numeric vector giving the subject ID}
@@ -14,7 +16,8 @@ This data has been designed to show reshaping/tidying of data.
   \item{\code{Drug1.2}}{A numeric vector giving the subjects observed value on treatment Drug1 at time 2}
   \item{\code{Drug2.1}}{A numeric vector giving the subjects observed value on treatment Drug2 at time 1}
   \item{\code{Drug2.2}}{A numeric vector giving the subjects observed value on treatment Drug2 at time 2}
- }}
+ }
+}
 \source{
 Simulated data
 }
@@ -25,4 +28,3 @@ messyData
 Messy clinical trial data
 }
 \keyword{datasets}
-

@@ -4,7 +4,8 @@
 \name{qtpk2}
 \alias{qtpk2}
 \title{Typical PK data}
-\format{A data frame with 2061 observations on the following 8 variables.
+\format{
+A data frame with 2061 observations on the following 8 variables.
  \describe{
    \item{\code{subjid}}{A numeric vector giving the subject ID}
    \item{\code{treat}}{A factor giving the treatment}
@@ -14,7 +15,8 @@
    \item{\code{hr}}{A numeric vector giving the heart rate}
    \item{\code{rr}}{A numeric vector giving the R-R interval}
    \item{\code{sex}}{A factor giving the subject sex}
- }}
+ }
+}
 \source{
 A subset of the data qtpk originally provided in the QT package
 }
@@ -25,4 +27,3 @@ qtpk2
 Typical PK data
 }
 \keyword{datasets}
-

@@ -1,5 +1,5 @@
 #' Clinical trial data
-#'
+#' @aliases missing_pk
 #' @format   A data frame with 165 observations on the following 4 variables.
 #' \describe{
 #'   \item{\code{Subject}}{a numeric vector giving the subject identifier}

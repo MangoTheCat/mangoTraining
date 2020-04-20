@@ -1,5 +1,5 @@
 #' Insurance Policy Data
-#' 
+#' @aliases policy_data
 #' @format   A data frame with 926 observations on the following 13 variables.
 #' \describe{
 #'   \item{\code{Year}}{The four digit year of the policy}

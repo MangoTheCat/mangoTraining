@@ -1,5 +1,5 @@
 #' An example of NONMEM run data
-#' 
+#' @aliases run_data
 #' @format   A data frame with 73 observations on the following 10 variables.
 #' \describe{
 #'    \item{\code{ID}}{a numeric vector giving the subject ID}

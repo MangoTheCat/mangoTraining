@@ -22,4 +22,3 @@ Calculation used for Emax in Mango Training materials
 emaxFun(Dose = 100)
 
 }
-

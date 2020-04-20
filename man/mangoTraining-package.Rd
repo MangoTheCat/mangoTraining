@@ -2,8 +2,8 @@
 % Please edit documentation in R/mangoTraining-package.R
 \docType{package}
 \name{mangoTraining-package}
-\alias{mangoTraining}
 \alias{mangoTraining-package}
+\alias{mangoTraining}
 \title{Mango SOlutions Training Datasets}
 \description{
 Datasets designed to be used in conjunction with Mango Solutions training materials.
@@ -20,4 +20,3 @@ Mango Solutions
 Maintainer: Aimee Gott \email{agott@mango-solutions.com}
 Contact: Mango Solutions \email{rin24hours@mango-solutions.com}
 }
-

@@ -1,5 +1,5 @@
 #' Data that can be used to fit or plot Emax models
-#'
+#' 
 #' @format   A data frame with 64 observations on the following 6 variables.
 #'  \describe{
 #'    \item{\code{Subject}}{a numeric vector giving the unique subject ID}
@@ -11,3 +11,4 @@
 #'  }
 #' @source Simulated data
 "emaxData"
+#' @aliases "emax_data"

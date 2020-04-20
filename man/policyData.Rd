@@ -3,8 +3,10 @@
 \docType{data}
 \name{policyData}
 \alias{policyData}
+\alias{policy_data}
 \title{Insurance Policy Data}
-\format{A data frame with 926 observations on the following 13 variables.
+\format{
+A data frame with 926 observations on the following 13 variables.
 \describe{
   \item{\code{Year}}{The four digit year of the policy}
   \item{\code{PolicyNo}}{The policy number}
@@ -19,7 +21,8 @@
   \item{\code{NoClaims}}{Number of previous claims}
  \item{\code{GrossIncurred}}{Claim cost}
  \item{\code{Exposure}}{How long they have been driving}
- }}
+ }
+}
 \source{
 Simulated based on details of how to simulate car insurance data in
 Modern Actuarial Risk Theory Using R 2nd Edition (Rob Kaas, Marc Goovaerts, Jan Dhaene, Michel Denuit)
@@ -31,4 +34,3 @@ policyData
 Insurance Policy Data
 }
 \keyword{datasets}
-

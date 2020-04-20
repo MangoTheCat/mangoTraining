@@ -1,5 +1,5 @@
 #' Typical NONMEM data
-#' 
+#' @aliases xp_data
 #' @format   A data frame with 1061 observations on the following 23 variables.
 #' \describe{
 #'    \item{\code{ID}}{a numeric vector giving the subject ID}

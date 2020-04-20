@@ -1,5 +1,5 @@
 #' Messy clinical trial data
-#'
+#' @aliases messy_data
 #' @format   A data frame with 33 observations on the following 7 variables. 
 #' This data has been designed to show reshaping/tidying of data.
 #' \describe{

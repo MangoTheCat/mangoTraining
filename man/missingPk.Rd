@@ -3,14 +3,17 @@
 \docType{data}
 \name{missingPk}
 \alias{missingPk}
+\alias{missing_pk}
 \title{Clinical trial data}
-\format{A data frame with 165 observations on the following 4 variables.
+\format{
+A data frame with 165 observations on the following 4 variables.
 \describe{
   \item{\code{Subject}}{a numeric vector giving the subject identifier}
   \item{\code{Dose}}{a numeric vector giving the dose group}
   \item{\code{Time}}{a numeric vector giving the obserrvation times}
  \item{\code{Conc}}{a numeric vector giving the observed concentration}
- }}
+ }
+}
 \source{
 Simulated from pkData
 }
@@ -21,4 +24,3 @@ missingPk
 Clinical trial data
 }
 \keyword{datasets}
-

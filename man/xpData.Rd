@@ -3,8 +3,10 @@
 \docType{data}
 \name{xpData}
 \alias{xpData}
+\alias{xp_data}
 \title{Typical NONMEM data}
-\format{A data frame with 1061 observations on the following 23 variables.
+\format{
+A data frame with 1061 observations on the following 23 variables.
 \describe{
    \item{\code{ID}}{a numeric vector giving the subject ID}
    \item{\code{SEX}}{a numeric vector giving the subject sex}
@@ -29,7 +31,8 @@
    \item{\code{CL}}{a numeric vector giving the clearance}
    \item{\code{V}}{a numeric vector giving the volume of distribution}
    \item{\code{KA}}{a numeric vector giving the absorption rate constant}
- }}
+ }
+}
 \source{
 Simulated Data
 }
@@ -40,4 +43,3 @@ xpData
 Typical NONMEM data
 }
 \keyword{datasets}
-

@@ -1,5 +1,5 @@
 #' London Tube Performace data
-#' 
+#' @aliases tube_data
 #' @format  A data frame with 1050 observations on the following 9 variables.
 #'  \describe{
 #'    \item{\code{Line}}{A factor with 10 levels, one for each London tube line}

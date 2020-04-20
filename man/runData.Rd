@@ -3,8 +3,10 @@
 \docType{data}
 \name{runData}
 \alias{runData}
+\alias{run_data}
 \title{An example of NONMEM run data}
-\format{A data frame with 73 observations on the following 10 variables.
+\format{
+A data frame with 73 observations on the following 10 variables.
 \describe{
    \item{\code{ID}}{a numeric vector giving the subject ID}
    \item{\code{DAY}}{a numeric vector giving the day of the observation}
@@ -16,7 +18,8 @@
    \item{\code{PRED}}{a numeric vector giving the population prediction}
    \item{\code{RES}}{a numeric vector giving the residual}
    \item{\code{WRES}}{a numeric vector giving the weighted residual}
- }}
+ }
+}
 \source{
 Simulated Data
 }
@@ -27,4 +30,3 @@ runData
 An example of NONMEM run data
 }
 \keyword{datasets}
-

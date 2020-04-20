@@ -1,5 +1,5 @@
 #' Typical PK data
-#' 
+#' @aliases pk_data
 #' @format   A data frame with 165 observations on the following 4 variables.
 #'  \describe{
 #'    \item{\code{Subject}}{a numeric vector giving the subject identifier}
