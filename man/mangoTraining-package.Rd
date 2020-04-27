@@ -4,7 +4,7 @@
 \name{mangoTraining-package}
 \alias{mangoTraining-package}
 \alias{mangoTraining}
-\title{Mango SOlutions Training Datasets}
+\title{Mango Solutions Training Datasets}
 \description{
 Datasets designed to be used in conjunction with Mango Solutions training materials.
 }

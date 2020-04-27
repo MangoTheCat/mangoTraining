@@ -1,5 +1,5 @@
 #' @name mangoTraining-package
-#' @title Mango SOlutions Training Datasets
+#' @title Mango Solutions Training Datasets
 #' @aliases mangoTraining mangoTraining-package
 #' @description Datasets designed to be used in conjunction with Mango Solutions training materials.
 #' @docType package
