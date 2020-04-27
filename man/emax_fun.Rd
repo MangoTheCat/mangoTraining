@@ -19,6 +19,6 @@ emax_fun(Dose, E0 = 0, ED50 = 50, Emax = 100)
 Calculation used for Emax in Mango Training materials
 }
 \examples{
-emaxFun(Dose = 100)
+emax_fun(Dose = 100)
 
 }

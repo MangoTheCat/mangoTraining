@@ -3,7 +3,6 @@
 \docType{data}
 \name{bbc_articles}
 \alias{bbc_articles}
-\alias{BBC_Articles}
 \title{BBC articles data}
 \format{
 A data frame with 201,571 observations, each a word on a document. 
@@ -17,8 +16,6 @@ Unknown as of yet
 }
 \usage{
 bbc_articles
-
-BBC_Articles
 }
 \description{
 The new dataset is.... and for back.....(used in book), but TV-style name used i  training ciurss

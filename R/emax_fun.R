@@ -7,7 +7,7 @@
 #' @param ED50 50\% of maximum effect
 #' @param Emax Maximum effect 
 #' 
-#' @examples emaxFun(Dose = 100)
+#' @examples emax_fun(Dose = 100)
 #' 
 #' @export
 emax_fun <- function(Dose, E0 = 0, ED50 = 50, Emax = 100){

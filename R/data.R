@@ -11,12 +11,11 @@
 #' @source Unknown as of yet
 "bbc_articles"
 
-#' @rdname bbc_articles
-#' @format NULL
-"BBC_Articles"
+# #' @rdname bbc_articles
+# #' @format NULL
+# "BBC_Articles"
 
 
-#BBC_Articles <- bbc_articles
 
 
 #' Demographics data
@@ -34,7 +33,6 @@
 #'  }
 #' @source Simulated data
 "demo_data"
-#demoData <- demo_data
 
 
 #' Dow Jones Index Data
@@ -52,7 +50,6 @@
 #'  }
 #' @source Data obtained using \code{yahooSeries} from the \code{fImport} package.
 "dow_jones_data"
-#dowJonesData <- dow_jones_data
 
 
 #' Repeated Measures Drug data
@@ -81,7 +78,6 @@
 #'  }
 #' @source Simulated data
 "emax_data"
-#emaxData <- emax_data
 
 
 #' Messy clinical trial data
@@ -100,7 +96,6 @@
 #'  
 #' @source Simulated data
 "messy_data"
-#messyData <- messy_data
 
 
 #' Clinical trial data
@@ -115,7 +110,6 @@
 #'  
 #' @source Simulated from pkData
 "missing_pk"
-#missingPk <- missing_pk
 
 
 #' Typical PK data
@@ -129,7 +123,6 @@
 #'  }
 #' @source Simulated data
 "pk_data"
-#pkData <- pk_data
 
 
 #' Insurance Policy Data
@@ -153,7 +146,6 @@
 #' @source Simulated based on details of how to simulate car insurance data in
 #' Modern Actuarial Risk Theory Using R 2nd Edition (Rob Kaas, Marc Goovaerts, Jan Dhaene, Michel Denuit)
 "policy_data"
-#policyData <- policy_data
 
 
 #' Typical PK data
@@ -192,7 +184,6 @@
 #'  
 #' @source Simulated Data
 "run_data"
-#runData <- run_data
 
 
 #' London Tube Performace data
@@ -212,7 +203,6 @@
 #'  
 #' @source This data was taken from "http://data.london.gov.uk/datafiles/transport/assembly-tube-performance.xls"
 "tube_data"
-#tubeData <- tube_data
 
 
 #' Typical NONMEM data
@@ -245,6 +235,5 @@
 #'  }
 #'  
 #' @source Simulated Data
-#xpData <- xp_data
 
 
