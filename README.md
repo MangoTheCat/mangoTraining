@@ -14,6 +14,7 @@ R package containing datasets used for Mango Solutions training courses and for 
 
 [![](http://www.r-pkg.org/badges/version/mangoTraining)](http://www.r-pkg.org/pkg/mangoTraining)
 
+
 ## Installation
 
 For the latest devlopment version use remotes:
@@ -48,7 +49,7 @@ head(demo_data, 3)
 3       3   F  23     72    170 25.1     No
 ```
 
-_Note: In the most recent update (version 1.1) data names have been changed to snake_case; however previous names are still available_
+_Note: In the most recent update (version 1.1) data names have been changed to snake_case; however, previous names are still available._
 
 ```r
 head(demoData, 3) # old name format
