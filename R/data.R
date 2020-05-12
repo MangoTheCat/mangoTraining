@@ -76,6 +76,7 @@
 #'    \item{list("lstat")}{ lower status of the population (percent).  } 
 #'    \item{list("medv")}{ median value of owner-occupied homes in \$1000s.  }
 #'  }
+#' TODO - fix order of these
 #'    
 #' @source Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the
 #' demand for clean air.  \emph{J. Environ. Economics and Management} \bold{5},
@@ -514,6 +515,7 @@
 
 
 #' word_weights TODO
+#' Also TOD - fix non ASCII characters
 #' 
 "word_weights"
 
