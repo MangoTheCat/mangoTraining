@@ -24,7 +24,8 @@ Description: Datasets to be used primarly in conjunction with Mango Solutions
 URL: http://www.mango-solutions.com
 Depends:
     R (>= 2.10.0)
-Imports: testthat
+Suggests: 
+    testthat
 License: GPL-2
 LazyLoad: yes
 LazyData: yes
