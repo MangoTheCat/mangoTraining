@@ -2,4 +2,4 @@
 ^\.Rproj\.user$
 ^README.md
 ^data-raw$
-^\.gitlab-ci\.yml$
+^.travis\.yml$
