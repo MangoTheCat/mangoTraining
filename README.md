@@ -1,5 +1,7 @@
 
 <!-- badges: start -->
+[![Build Status](https://travis-ci.org/MangoTheCat/mangoTraining.svg?branch=master)](https://travis-ci.org/mangoTheCat/mangoTraining)
+[![Coverage Status](https://codecov.io/gh/MangoTheCat/mangoTraining/branch/master/graph/badge.svg)](https://codecov.io/gh/MangoTheCat/mangoTraining?branch=master)
 [![CRAN status](https://www.r-pkg.org/badges/version/mangoTraining)](https://CRAN.R-project.org/package=mangoTraining)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 <!-- badges: end -->
