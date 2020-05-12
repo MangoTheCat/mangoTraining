@@ -1,19 +1,16 @@
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/mangoTraining)](https://CRAN.R-project.org/package=mangoTraining)
-<!-- badges: end -->
-
-<!-- badges: start -->
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 <!-- badges: end -->
-  
+
 
 # mangoTraining
 
 R package containing datasets used for Mango Solutions training courses and for the book SAMS Teach Yourself R in 24 Hours. 
 
-[![](http://www.r-pkg.org/badges/version/mangoTraining)](http://www.r-pkg.org/pkg/mangoTraining)
-
+Since version 1.1 there have been updates to the naming conventions of the package to align with tidyverse guidelines (i.e. using
+snake_case); old camelCase names for data/functions are still included to allow for backwards compatability with the book.
 
 ## Installation
 
