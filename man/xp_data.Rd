@@ -3,6 +3,7 @@
 \docType{data}
 \name{xp_data}
 \alias{xp_data}
+\alias{xpData}
 \title{Typical NONMEM data}
 \format{
 A data frame with 1061 observations on the following 23 variables.
@@ -37,6 +38,8 @@ Simulated Data
 }
 \usage{
 xp_data
+
+xpData
 }
 \description{
 Typical NONMEM data

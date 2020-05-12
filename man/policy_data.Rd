@@ -3,6 +3,7 @@
 \docType{data}
 \name{policy_data}
 \alias{policy_data}
+\alias{policyData}
 \title{Insurance Policy Data}
 \format{
 A data frame with 926 observations on the following 13 variables.
@@ -28,6 +29,8 @@ Modern Actuarial Risk Theory Using R 2nd Edition (Rob Kaas, Marc Goovaerts, Jan 
 }
 \usage{
 policy_data
+
+policyData
 }
 \description{
 Insurance Policy Data

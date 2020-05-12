@@ -17,6 +17,9 @@ auto_mpg
 \description{
 Revised from CMU StatLib library, data concerns city-cycle fuel consumption.
 }
+\details{
+TODO - add column info
+}
 \references{
 Quinlan,R. (1993). Combining Instance-Based and Model-Based
 Learning. In Proceedings on the Tenth International Conference of Machine

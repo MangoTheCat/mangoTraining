@@ -3,6 +3,7 @@
 \docType{data}
 \name{emax_data}
 \alias{emax_data}
+\alias{emaxData}
 \title{Data that can be used to fit or plot Emax models}
 \format{
 A data frame with 64 observations on the following 6 variables.
@@ -20,6 +21,8 @@ Simulated data
 }
 \usage{
 emax_data
+
+emaxData
 }
 \description{
 Data that can be used to fit or plot Emax models
