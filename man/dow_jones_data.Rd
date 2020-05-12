@@ -3,6 +3,7 @@
 \docType{data}
 \name{dow_jones_data}
 \alias{dow_jones_data}
+\alias{dowJonesData}
 \title{Dow Jones Index Data}
 \format{
 A data frame with 252 observations on the following 7 variables containing data
@@ -22,6 +23,8 @@ Data obtained using \code{yahooSeries} from the \code{fImport} package.
 }
 \usage{
 dow_jones_data
+
+dowJonesData
 }
 \description{
 Dow Jones Index Data

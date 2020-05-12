@@ -3,6 +3,7 @@
 \docType{data}
 \name{missing_pk}
 \alias{missing_pk}
+\alias{missingPk}
 \title{Clinical trial data}
 \format{
 A data frame with 165 observations on the following 4 variables.
@@ -18,6 +19,8 @@ Simulated from pkData
 }
 \usage{
 missing_pk
+
+missingPk
 }
 \description{
 Clinical trial data

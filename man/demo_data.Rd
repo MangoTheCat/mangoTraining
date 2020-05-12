@@ -3,6 +3,7 @@
 \docType{data}
 \name{demo_data}
 \alias{demo_data}
+\alias{demoData}
 \title{Demographics data}
 \format{
 A data frame with 33 observations on the following 7 demographic variables. 
@@ -22,6 +23,8 @@ Simulated data
 }
 \usage{
 demo_data
+
+demoData
 }
 \description{
 Demographics data

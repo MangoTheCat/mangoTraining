@@ -3,6 +3,7 @@
 \docType{data}
 \name{run_data}
 \alias{run_data}
+\alias{runData}
 \title{An example of NONMEM run data}
 \format{
 A data frame with 73 observations on the following 10 variables.
@@ -24,6 +25,8 @@ Simulated Data
 }
 \usage{
 run_data
+
+runData
 }
 \description{
 An example of NONMEM run data

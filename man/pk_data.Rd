@@ -3,6 +3,7 @@
 \docType{data}
 \name{pk_data}
 \alias{pk_data}
+\alias{pkData}
 \title{Typical PK data}
 \format{
 A data frame with 165 observations on the following 4 variables.
@@ -18,6 +19,8 @@ Simulated data
 }
 \usage{
 pk_data
+
+pkData
 }
 \description{
 Typical PK data

@@ -3,6 +3,7 @@
 \docType{data}
 \name{tube_data}
 \alias{tube_data}
+\alias{tubeData}
 \title{London Tube Performace data}
 \format{
 A data frame with 1050 observations on the following 9 variables.
@@ -23,6 +24,8 @@ This data was taken from "http://data.london.gov.uk/datafiles/transport/assembly
 }
 \usage{
 tube_data
+
+tubeData
 }
 \description{
 London Tube Performace data

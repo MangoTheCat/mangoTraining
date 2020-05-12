@@ -3,6 +3,7 @@
 \docType{data}
 \name{messy_data}
 \alias{messy_data}
+\alias{messyData}
 \title{Messy clinical trial data}
 \format{
 A data frame with 33 observations on the following 7 variables. 
@@ -22,6 +23,8 @@ Simulated data
 }
 \usage{
 messy_data
+
+messyData
 }
 \description{
 Messy clinical trial data

@@ -8,14 +8,16 @@
 A list containing a training and test dataset. These come from a data frame 
 with 699 observations on 11 variables, however the ID and class columns have been removed. 
 There is a train to test ratio of 0.8. 
-
-\tabular{cll}{ [,1] \tab
-Cl.thickness \tab Clump Thickness\cr [,1] \tab Cell.size \tab Uniformity of
-Cell Size\cr [,2] \tab Cell.shape \tab Uniformity of Cell Shape\cr [,3] \tab
-Marg.adhesion \tab Marginal Adhesion\cr [,4] \tab Epith.c.size \tab Single
-Epithelial Cell Size\cr [,5] \tab Bare.nuclei \tab Bare Nuclei\cr [,6] \tab
-Bl.cromatin \tab Bland Chromatin\cr [,7] \tab Normal.nucleoli \tab Normal
-Nucleoli\cr [,7] \tab Mitoses\cr [,8]}
+\tabular{cll}{ 
+[,1] \tab Cl.thickness \tab Clump Thickness\cr 
+[,2] \tab Cell.size \tab Uniformity of Cell Size\cr 
+[,3] \tab Cell.shape \tab Uniformity of Cell Shape\cr 
+[,4] \tab Marg.adhesion \tab Marginal Adhesion\cr 
+[,5] \tab Epith.c.size \tab Single Epithelial Cell Size\cr 
+[,6] \tab Bare.nuclei \tab Bare Nuclei\cr 
+[,7] \tab Bl.cromatin \tab Bland Chromatin\cr 
+[,8] \tab Normal.nucleoli \tab Normal Nucleoli\cr 
+[,9] \tab Mitoses\cr \tab Mitoses\cr}
 }
 \source{
 \itemize{ \item Creator: Dr. WIlliam H. Wolberg (physician);
