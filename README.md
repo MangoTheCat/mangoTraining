@@ -9,8 +9,6 @@
 
 R package containing datasets used for Mango Solutions training courses and for the book SAMS Teach Yourself R in 24 Hours. 
 
-Since version 1.1 there have been updates to the naming conventions of the package to align with tidyverse guidelines (i.e. using
-snake_case); old camelCase names for data/functions are still included to allow for backwards compatability with the book.
 
 ## Installation
 
@@ -46,7 +44,12 @@ head(demo_data, 3)
 3       3   F  23     72    170 25.1     No
 ```
 
-_Note: In the most recent update (version 1.1) data names have been changed to snake_case; however, previous names are still available._
+## Updates
+
+Since version 1.1 there have been updates to the naming conventions of the package to align with tidyverse guidelines (i.e. using
+snake_case); old camelCase names for data/functions are still included to allow for backwards compatability with the book.
+
+For example, you can use both `demo_data` and `demoData` for the same dataset:
 
 ```r
 head(demoData, 3) # old name format
