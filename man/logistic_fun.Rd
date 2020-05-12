@@ -21,6 +21,6 @@ logistic_fun(Dose, E0 = 0, EC50 = 50, Emax = 1, rc = 5)
 Simple logistic function as used in Mango training materials
 }
 \examples{
-logisticFun(Dose = 50)
+logistic_fun(Dose = 50)
 
 }

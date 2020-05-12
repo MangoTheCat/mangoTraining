@@ -8,7 +8,7 @@
 #' @param Emax Maximum effect
 #' @param rc rate constant
 #' 
-#' @examples logisticFun(Dose = 50)
+#' @examples logistic_fun(Dose = 50)
 #' 
 #' @export
 logistic_fun <- function(Dose, E0 = 0, EC50 = 50, Emax = 1, rc = 5) {

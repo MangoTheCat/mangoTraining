@@ -235,5 +235,207 @@
 #'  }
 #'  
 #' @source Simulated Data
+"xp_data"
+
+#' Housing Values in Suburbs of Boston
+#' The \code{Boston} data frame has 506 rows and 14 columns.
+#' @format This data frame contains the following columns: 
+#' \describe{
+#'    \item{list("crim")}{Per capita crime rate by town.} 
+#'    \item{list("zn")}{proportion of residential land zoned for lots over 25,000 sq.ft.}
+#'    \item{list("indus")}{ proportion of non-retail business acres per town.  }
+#'    \item{list("chas")}{ Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).  } 
+#'    \item{list("nox")}{ nitrogen oxides concentration (parts per 10 million).  } 
+#'    \item{list("rm")}{ average number of rooms per dwelling.  } 
+#'    \item{list("age")}{ proportion of owner-occupied units built prior to 1940.  } 
+#'    \item{list("dis")}{ weighted mean of distances to five Boston employment centres.  } 
+#'    \item{list("rad")}{ index of accessibility to radial highways.  } 
+#'    \item{list("tax")}{ full-value property-tax rate per \$10,000.  } 
+#'    \item{list("ptratio")}{ pupil-teacher ratio by town.  }
+#'    \item{list("black")}{ \eqn{1000(Bk - 0.63)^2} where \eqn{Bk} is the proportion of blacks by town.  } 
+#'    \item{list("lstat")}{ lower status of the population (percent).  } 
+#'    \item{list("medv")}{ median value of owner-occupied homes in \$1000s.  }
+#'  }
+#'    
+#' @source Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the
+#' demand for clean air.  \emph{J. Environ. Economics and Management} \bold{5},
+#' 81--102.
+#'
+#' Belsley D.A., Kuh, E.  and Welsch, R.E. (1980) \emph{Regression Diagnostics.
+#' Identifying Influential Data and Sources of Collinearity.} New York: Wiley.
+#' @keywords datasets
+"boston"
+
+
+#' Auto MPG Data Set
+#' 
+#' Revised from CMU StatLib library, data concerns city-cycle fuel consumption.
+#' 
+#' 
+#' @name autoMPG
+#' @docType data
+#' @format A matrix containing 398 observations and 10 attributes.
+#' @references Quinlan,R. (1993). Combining Instance-Based and Model-Based
+#' Learning. In Proceedings on the Tenth International Conference of Machine
+#' Learning, 236-243, University of Massachusetts, Amherst. Morgan Kaufmann.
+#' @source http://archive.ics.uci.edu/ml/datasets/Auto+MPG
+"auto_mpg"
+
+
+#' Wisconsin Diagnostic Breast Cancer (WDBC)
+#' 
+#' The data contain measurements on cells in suspicious lumps in a women's
+#' breast. Features are computed from a digitized image of a fine needle
+#' aspirate (FNA) of a breast mass. They describe characteristics of the cell
+#' nuclei present in the image. All samples are classsified as either
+#' \emph{benign} or 
+#' \emph{malignant}.
+#' 
+#' Ten real-valued features are computed for each cell nucleus: \cr a) radius
+#' (mean of distances from center to points on the perimeter) \cr b) texture
+#' (standard deviation of gray-scale values) \cr c) perimeter \cr d) area \cr
+#' e) smoothness (local variation in radius lengths) \cr f) compactness
+#' (perimeter^2 / area - 1.0) \cr g) concavity (severity of concave portions of
+#' the contour) \cr h) concave points (number of concave portions of the
+#' contour) \cr i) symmetry \cr j) fractal dimension ("coastline approximation"
+#' - 1) \cr The references listed below contain detailed descriptions of how
+#' these features are computed.  The mean, and "worst" or
+#' largest (mean of the three largest values) of these features were computed
+#' for each image, resulting in 20 features.
+#' 
+#' @docType data
+#' @format \code{breast_cancer} is a \code{data.frame} with 22 columns. The first column
+#' is an ID column. The second indicates whether the sample is classified as benign or malignant.
+#' The remaining columns contain measurements for 20 features.
+#' @note This breast cancer database was obtained from the University of
+#' Wisconsin Hospitals, Madison from Dr. William H. Wolberg.
+#' @references O. L. Mangasarian and W. H. Wolberg: "Cancer diagnosis via
+#' linear programming",\cr SIAM News, Volume 23, Number 5, September 1990, pp 1
+#' & 18. William H. Wolberg and O.L. Mangasarian: "Multisurface method of
+#' pattern separation for medical diagnosis applied to breast cytology", \cr
+#' Proceedings of the National Academy of Sciences, U.S.A., Volume 87, December
+#' 1990, pp 9193-9196. K. P. Bennett & O. L. Mangasarian: "Robust linear
+#' programming discrimination of two linearly inseparable sets",\cr
+#' Optimization Methods and Software 1, 1992, 23-34 (Gordon & Breach Science
+#' Publishers).
+#' @source
+#' \url{https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)}
+#' \cr \cr Bache, K. & Lichman, M. (2013). UCI Machine Learning Repository.
+#' Irvine, CA: University of California, School of Information and Computer
+#' Science.
+#' @keywords datasets
+"breast_cancer"
+
+
+#' Wisconsin Breast Cancer Database
+#' 
+#' 
+#' @format A list containing a training and test dataset. These come from a data frame 
+#' with 699 observations on 11 variables, however the ID and class columns have been removed. 
+#' There is a train to test ratio of 0.8. 
+#' 
+#' \tabular{cll}{ [,1] \tab
+#' Cl.thickness \tab Clump Thickness\cr [,1] \tab Cell.size \tab Uniformity of
+#' Cell Size\cr [,2] \tab Cell.shape \tab Uniformity of Cell Shape\cr [,3] \tab
+#' Marg.adhesion \tab Marginal Adhesion\cr [,4] \tab Epith.c.size \tab Single
+#' Epithelial Cell Size\cr [,5] \tab Bare.nuclei \tab Bare Nuclei\cr [,6] \tab
+#' Bl.cromatin \tab Bland Chromatin\cr [,7] \tab Normal.nucleoli \tab Normal
+#' Nucleoli\cr [,7] \tab Mitoses\cr [,8]}
+#' @references 1. Wolberg,W.H., \& Mangasarian,O.L. (1990). Multisurface method
+#' of pattern separation for medical diagnosis applied to breast cytology. In
+#' Proceedings of the National Academy of Sciences, 87, 9193-9196.\cr - Size of
+#' data set: only 369 instances (at that point in time)\cr - Collected
+#' classification results: 1 trial only\cr - Two pairs of parallel hyperplanes
+#' were found to be consistent with 50\% of the data\cr - Accuracy on remaining
+#' 50\% of dataset: 93.5\%\cr - Three pairs of parallel hyperplanes were found
+#' to be consistent with 67\% of data\cr - Accuracy on remaining 33\% of
+#' dataset: 95.9\%
+#' 
+#' 2. Zhang,J. (1992). Selecting typical instances in instance-based learning.
+#' In Proceedings of the Ninth International Machine Learning Conference (pp.
+#' 470-479).  Aberdeen, Scotland: Morgan Kaufmann.\cr - Size of data set: only
+#' 369 instances (at that point in time)\cr - Applied 4 instance-based learning
+#' algorithms\cr - Collected classification results averaged over 10 trials\cr
+#' - Best accuracy result: \cr - 1-nearest neighbor: 93.7\%\cr - trained on 200
+#' instances, tested on the other 169\cr - Also of interest:\cr - Using only
+#' typical instances: 92.2\% (storing only 23.1 instances)\cr - trained on 200
+#' instances, tested on the other 169
+#' 
+#' Newman, D.J. & Hettich, S. & Blake, C.L. & Merz, C.J. (1998).  UCI
+#' Repository of machine learning databases
+#' [http://www.ics.uci.edu/~mlearn/MLRepository.html]. Irvine, CA: University
+#' of California, Department of Information and Computer Science.
+#' @source \itemize{ \item Creator: Dr. WIlliam H. Wolberg (physician);
+#' University of Wisconsin Hospital ;Madison; Wisconsin; USA \item Donor: Olvi
+#' Mangasarian (mangasarian@cs.wisc.edu) \item Received: David W. Aha
+#' (aha@cs.jhu.edu) } These data have been taken from the UCI Repository Of
+#' Machine Learning Databases at \itemize{ \item
+#' \url{ftp://ftp.ics.uci.edu/pub/machine-learning-databases} \item
+#' \url{http://www.ics.uci.edu/~mlearn/MLRepository.html} } and were converted
+#' to R format by Evgenia Dimitriadou.
+#' @keywords datasets
+"breast_cancer_clean_features"
+
+
+
+#' Wisconsin Breast Cancer Database
+#' 
+#' 
+#' @format A list containing a training and test dataset. These come from a data frame 
+#' with 699 observations on 11 variables, however only the target class has been kept. 
+#' There is a train to test ratio of 0.8. 
+#' 
+#' \tabular{cll}{ [,1] \tab
+#' Class.Benign \tab Whether the sample was classified as benign \cr [,1] \tab 
+#' Class.malignant \tab Whether the sample was classified as malignant
+#' 
+#' 2. Zhang,J. (1992). Selecting typical instances in instance-based learning.
+#' In Proceedings of the Ninth International Machine Learning Conference (pp.
+#' 470-479).  Aberdeen, Scotland: Morgan Kaufmann.\cr - Size of data set: only
+#' 369 instances (at that point in time)\cr - Applied 4 instance-based learning
+#' algorithms\cr - Collected classification results averaged over 10 trials\cr
+#' - Best accuracy result: \cr - 1-nearest neighbor: 93.7\%\cr - trained on 200
+#' instances, tested on the other 169\cr - Also of interest:\cr - Using only
+#' typical instances: 92.2\% (storing only 23.1 instances)\cr - trained on 200
+#' instances, tested on the other 169
+#' 
+#' Newman, D.J. & Hettich, S. & Blake, C.L. & Merz, C.J. (1998).  UCI
+#' Repository of machine learning databases
+#' [http://www.ics.uci.edu/~mlearn/MLRepository.html]. Irvine, CA: University
+#' of California, Department of Information and Computer Science.
+#' @source \itemize{ \item Creator: Dr. WIlliam H. Wolberg (physician);
+#' University of Wisconsin Hospital ;Madison; Wisconsin; USA \item Donor: Olvi
+#' Mangasarian (mangasarian@cs.wisc.edu) \item Received: David W. Aha
+#' (aha@cs.jhu.edu) } These data have been taken from the UCI Repository Of
+#' Machine Learning Databases at \itemize{ \item
+#' \url{ftp://ftp.ics.uci.edu/pub/machine-learning-databases} \item
+#' \url{http://www.ics.uci.edu/~mlearn/MLRepository.html} } and were converted
+#' to R format by Evgenia Dimitriadou.
+#' @keywords datasets
+"breast_cancer_clean_target"
+
+#' Carrier data
+#'
+#' This data comes from the RITA/Transtats database
+#'
+#' @format A dataframe with 1738 observations and 2 variables
+#' \describe{
+#'    \item{\code{Code}}{A character string giving the IATA code for the carrier}
+#'    \item{\code{Description}}{Carrier name/description}
+#'    }
+#' @name carriers
+#'
+"carriers"
+
+
+
+
+
+
+
+
+
+
+
 
 
