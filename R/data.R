@@ -1,10 +1,11 @@
 #' airline_sentiment_tweets TODO
 #' 
+"airline_sentiment_tweets"
 
 
 #' airports TODO
 #' 
- 
+"airports"
 
 
 #' Auto MPG Data Set
@@ -38,17 +39,22 @@
 
 #' bbc_business_123 TODO
 #' 
+"bbc_business_123"
+
 
 
 #' bbc_politics_123 TODO
 #' 
+"bbc_politics_123"
+
 
 #' body_image TODO
 #' 
+"body_image"
 
 #' book_sections TODO
 #' 
-
+"book_sections"
 
 
 #' Housing Values in Suburbs of Boston
@@ -133,14 +139,16 @@
 #' @format A list containing a training and test dataset. These come from a data frame 
 #' with 699 observations on 11 variables, however the ID and class columns have been removed. 
 #' There is a train to test ratio of 0.8. 
-#' 
-#' \tabular{cll}{ [,1] \tab
-#' Cl.thickness \tab Clump Thickness\cr [,1] \tab Cell.size \tab Uniformity of
-#' Cell Size\cr [,2] \tab Cell.shape \tab Uniformity of Cell Shape\cr [,3] \tab
-#' Marg.adhesion \tab Marginal Adhesion\cr [,4] \tab Epith.c.size \tab Single
-#' Epithelial Cell Size\cr [,5] \tab Bare.nuclei \tab Bare Nuclei\cr [,6] \tab
-#' Bl.cromatin \tab Bland Chromatin\cr [,7] \tab Normal.nucleoli \tab Normal
-#' Nucleoli\cr [,7] \tab Mitoses\cr [,8]}
+#' \tabular{cll}{ 
+#' [,1] \tab Cl.thickness \tab Clump Thickness\cr 
+#' [,2] \tab Cell.size \tab Uniformity of Cell Size\cr 
+#' [,3] \tab Cell.shape \tab Uniformity of Cell Shape\cr 
+#' [,4] \tab Marg.adhesion \tab Marginal Adhesion\cr 
+#' [,5] \tab Epith.c.size \tab Single Epithelial Cell Size\cr 
+#' [,6] \tab Bare.nuclei \tab Bare Nuclei\cr 
+#' [,7] \tab Bl.cromatin \tab Bland Chromatin\cr 
+#' [,8] \tab Normal.nucleoli \tab Normal Nucleoli\cr 
+#' [,9] \tab Mitoses\cr \tab Mitoses\cr}
 #' @references 1. Wolberg,W.H., \& Mangasarian,O.L. (1990). Multisurface method
 #' of pattern separation for medical diagnosis applied to breast cytology. In
 #' Proceedings of the National Academy of Sciences, 87, 9193-9196.\cr - Size of
@@ -185,9 +193,10 @@
 #' with 699 observations on 11 variables, however only the target class has been kept. 
 #' There is a train to test ratio of 0.8. 
 #' 
-#' \tabular{cll}{ [,1] \tab
-#' Class.Benign \tab Whether the sample was classified as benign \cr [,1] \tab 
-#' Class.malignant \tab Whether the sample was classified as malignant
+#' \tabular{cll}{ 
+#' [,1] \tab Class.Benign \tab Whether the sample was classified as benign \cr
+#' [,2] \tab Class.malignant \tab Whether the sample was classified as malignant\cr
+#'  }
 #' 
 #' 2. Zhang,J. (1992). Selecting typical instances in instance-based learning.
 #' In Proceedings of the Ninth International Machine Learning Conference (pp.
@@ -217,7 +226,7 @@
 
 #' bridges TODO
 #' 
-
+"bridges"
 
 
 #' Carrier data
@@ -236,7 +245,7 @@
 
 #' commute TODO
 #' 
-
+"commute"
 
 
 
@@ -318,15 +327,22 @@
 
 #' global_temps TODO
 #' 
+"global_temps"
 
 #' imdb_reviews TODO
 #' 
+"imdb_reviews"
+
 
 #' london TODO
 #' 
+"london"
 
-#' measels TODO
+
+#' measles TODO
 #' 
+"measles"
+
 
 
 #' Messy clinical trial data
@@ -372,11 +388,13 @@
 
 #' olympics TODO
 #' 
+"olympics"
+
 
 
 #' Typical PK data
 #' @aliases pk_data
-#' @format   A data frame with 165 observations on the following 4 variables.
+#' @format A data frame with 165 observations on the following 4 variables.
 #'  \describe{
 #'    \item{\code{Subject}}{a numeric vector giving the subject identifier}
 #'    \item{\code{Dose}}{a numeric vector giving the dose group}
@@ -465,7 +483,7 @@
 
 #' students TODO
 #' 
-
+"students"
 
 #' London Tube Performace data
 #' @aliases tube_data
@@ -492,11 +510,17 @@
 
 #' walking TODO
 #' 
+"walking"
 
-#' world_weights TODO
+
+#' word_weights TODO
 #' 
+"word_weights"
+
 
 #' x_iris TODO
+"x_iris"
+
 
 #' Typical NONMEM data
 #' @aliases xp_data
@@ -536,6 +560,6 @@
 
 #' y_iris TODO
 #' 
-
+"y_iris"
 
 
