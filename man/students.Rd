@@ -7,21 +7,21 @@
 \format{
 A tibble with 146 observations of 15 variables.
 \describe{
-   \item{\code{Grade}}{Grade achieved for the examination}
-   \item{\code{Pass}}{Whether the examination result consituted a pass}
-   \item{\code{Exam}}{Examination score (out of 100)}
+   \item{\code{Grade}}{Final grade (A, B, C, D)}
+   \item{\code{Pass}}{Did they pass the course? (No, Yes)}
+   \item{\code{Exam}}{Mark in final exam (out of 100)}
    \item{\code{Degree}}{The degree type undertaken by the student}
    \item{\code{Gender}}{Gender of the student}
-   \item{\code{Attend}}{Whether the student attended the course or not}
+   \item{\code{Attend}}{Did they regularly attend class? (No, Yes)}
    \item{\code{Assign}}{Score obtained in mid-term assignment (out of 20)}
    \item{\code{Test}}{Score obtained in previous term test (out of 20)}
-   \item{\code{B}}{Score obtained in mid-term assignment B (out of 20)}
-   \item{\code{C}}{Score obtained in mid-term assignment C (out of 20)}
-   \item{\code{MC}}{Score obtained in mid-term assignment MC (out of 30)}
-   \item{\code{Colour}}{Colour of university house assigned to student}
-   \item{\code{Stage1}}{Grade achieved by student in first stage of university examinations}
-   \item{\code{Years.Since}}{Years since most recent education}
-   \item{\code{Repeat}}{Whether or not this examination is a forced repeat for the student}
+   \item{\code{B}}{Mark for short answer section (out of 20)}
+   \item{\code{C}}{Mark for long answer section (out of 20)}
+   \item{\code{MC}}{Mark for multiple choice sectionC (out of 30)}
+   \item{\code{Colour}}{Colour of exam booklet (Blue, Green, Pink, Yellow)}
+   \item{\code{Stage1}}{Stage one grade (A, B, C)}
+   \item{\code{Years.Since}}{Number of years since doing Stage 1}
+   \item{\code{Repeat}}{Where they repeating the paper? (No, Yes)}
    }
 }
 \source{
