@@ -8,7 +8,7 @@
 This data frame contains the following columns: 
 \describe{
    \item{\code{tract}}{Census tract}
-   \item{\code{medv}}{Median value of owner-occupied homes in \$1000s.  }
+   \item{\code{medv}}{Median value of owner-occupied homes in $1,000s.  }
    \item{\code{crim}}{Per capita crime rate by town.} 
    \item{\code{zn}}{Proportion of residential land zoned for lots over 25,000 sq.ft.}
    \item{\code{indus}}{Proportion of non-retail business acres per town.  }
@@ -18,7 +18,7 @@ This data frame contains the following columns:
    \item{\code{age}}{Proportion of owner-occupied units built prior to 1940.  } 
    \item{\code{dis}}{Weighted mean of distances to five Boston employment centres.  } 
    \item{\code{rad}}{Index of accessibility to radial highways.  } 
-   \item{\code{tax}}{Full-value property-tax rate per \$10,000.  } 
+   \item{\code{tax}}{Full-value property-tax rate per $10,000.  } 
    \item{\code{ptratio}}{Pupil-teacher ratio by town.  }
    \item{\code{b}}{\eqn{1000(Bk - 0.63)^2} where \eqn{Bk} is the proportion of blacks by town.  } 
    \item{\code{lstat}}{Lower status of the population (percent).  } 
@@ -36,7 +36,7 @@ Identifying Influential Data and Sources of Collinearity.} New York: Wiley.
 boston
 }
 \description{
-Housing Values in Suburbs of Boston.
+Dataset containing housing values in the suburbs of Boston.
 }
 \details{
 The \code{boston} data frame has 506 rows and 15 columns.

@@ -36,7 +36,7 @@ breast_cancer
 }
 \description{
 The data contain measurements on cells in suspicious lumps in a women's
-breast. Features are computed from a digitized image of a fine needle
+breast. Features are computed from a digitised image of a fine needle
 aspirate (FNA) of a breast mass. They describe characteristics of the cell
 nuclei present in the image. All samples are classsified as either
 \emph{benign} or
