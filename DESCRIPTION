@@ -7,7 +7,7 @@ Authors@R:
              email = c("training@mango-solutions.com", "rin24hours@mango-solutions.com")),
       person(given = "Karina",
              family = "Marks",
-             role = c("ctb", "cre"),
+             role = c("ctb"),
              email = "kmarks@mango-solutions.com"),
       person(given = "Aimee",
              family = "Gott",
