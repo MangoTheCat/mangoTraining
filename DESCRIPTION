@@ -3,20 +3,21 @@ Title: Mango Solutions Training Datasets
 Version: 1.1
 Authors@R:
     c(person(given = "Mango Solutions",
-             role = c("aut","cre"),
+             role = c("aut", "cre"),
              email = c("training@mango-solutions.com", "rin24hours@mango-solutions.com")),
       person(given = "Karina",
              family = "Marks",
-             role = "aut",
+             role = c("ctb", "cre"),
              email = "kmarks@mango-solutions.com"),
+      person(given = "Aimee",
+             family = "Gott",
+             role = "aut"),
       person(given = "Andrew",
              family = "Little",
-             role = "ctb",
-             email = "alittle@mango-solutions.com"),
+             role = c("ctb", "dtc", "rev")),
       person(given = "Owen",
              family = "Jones",
-             role = "sad",
-             email = "ojones@mango-solutions.com"))
+             role = "ctb"))
 Description: Datasets to be used primarly in conjunction with Mango Solutions
     training materials but also for the book 'SAMS Teach Yourself R in 24 Hours' (ISBN: 978-0-672-33848-9).
     Version 1.0-7 is largely for use with the book; however, version 1.1 has a much greater focus on use with
