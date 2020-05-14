@@ -3,14 +3,22 @@
 \docType{data}
 \name{bbc_politics_123}
 \alias{bbc_politics_123}
-\title{bbc_politics_123 TODO}
+\title{BBC Politics article data}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 86 rows and 2 columns.
+A tibble with 86 observations, each a word on a document.
+ \describe{
+   \item{\code{word}}{A word in an article}
+   \item{\code{document}}{The document/article ID where the word was taken from. Note: this only has one unique value, 
+   however the column is kept for comparison with other BBC datasets.}
+ }
+}
+\source{
+\itemize{\item{\url{https://www.bbc.co.uk/news}}}
 }
 \usage{
 bbc_politics_123
 }
 \description{
-bbc_politics_123 TODO
+A single BBC Politics article (not included in the full BBC articles dataset), given in tidy, one word per row format.
 }
 \keyword{datasets}

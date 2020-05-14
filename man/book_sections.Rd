@@ -3,14 +3,25 @@
 \docType{data}
 \name{book_sections}
 \alias{book_sections}
-\title{book_sections TODO}
+\title{Gutenberg Project books dataset}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 108657 rows and 2 columns.
+A tibble with 108,657 observations, each a word on a document. 
+This data set is designed to show how LDA can be used to separate a set of 
+mixed documents into two distinct "topics" (or books).
+
+\describe{
+ \item{\code{word}}{Words from a given section within a book.}
+ \item{\code{document}}{The book section ID that the word came from.}
+ }
+}
+\source{
+Data taken from two books of the Gutenberg Project 
+   \itemize{\item{\url{https://www.gutenberg.org/}}}
 }
 \usage{
 book_sections
 }
 \description{
-book_sections TODO
+A mixed up collection of words from different book sections of two books.
 }
 \keyword{datasets}

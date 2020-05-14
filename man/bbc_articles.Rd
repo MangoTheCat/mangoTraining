@@ -5,19 +5,19 @@
 \alias{bbc_articles}
 \title{BBC articles data}
 \format{
-A data frame with 201,571 observations, each a word on a document. 
+A tibble with 201,571 observations, each a word on a document.
  \describe{
    \item{\code{word}}{A word in an article}
-   \item{\code{document}}{The document in which that word was found}
+   \item{\code{document}}{The document/article ID where the word was taken from}
  }
 }
 \source{
-Unknown as of yet
+\itemize{\item{\url{https://www.bbc.co.uk/news}}}
 }
 \usage{
 bbc_articles
 }
 \description{
-The new dataset is.... and for back.....(used in book), but TV-style name used i  training ciurss
+A collection of BBC news articles from the business or politics sections. There are a total of 927 articles used.
 }
 \keyword{datasets}

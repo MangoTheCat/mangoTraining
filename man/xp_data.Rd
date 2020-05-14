@@ -42,6 +42,7 @@ xp_data
 xpData
 }
 \description{
-Typical NONMEM data
+This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 }
 \keyword{datasets}

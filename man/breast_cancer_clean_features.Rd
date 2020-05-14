@@ -8,36 +8,31 @@
 A list containing a training and test dataset. These come from a data frame 
 with 699 observations on 11 variables, however the ID and class columns have been removed. 
 There is a train to test ratio of 0.8. 
-<<<<<<< HEAD
-
-\tabular{cll}{ [, 1] \tab
-Cl.thickness \tab Clump Thickness\cr [, 2] \tab Cell.size \tab Uniformity of
-Cell Size\cr [, 3] \tab Cell.shape \tab Uniformity of Cell Shape\cr [, 4] \tab
-Marg.adhesion \tab Marginal Adhesion\cr [, 5] \tab Epith.c.size \tab Single
-Epithelial Cell Size\cr [, 6] \tab Bare.nuclei \tab Bare Nuclei\cr [, 7] \tab
-Bl.cromatin \tab Bland Chromatin\cr [, 8] \tab Normal.nucleoli \tab Normal
-Nucleoli\cr [, 9] \tab Mitoses \tab Mitoses \cr}
-=======
-\tabular{cll}{ 
-[,1] \tab Cl.thickness \tab Clump Thickness\cr 
-[,2] \tab Cell.size \tab Uniformity of Cell Size\cr 
-[,3] \tab Cell.shape \tab Uniformity of Cell Shape\cr 
-[,4] \tab Marg.adhesion \tab Marginal Adhesion\cr 
-[,5] \tab Epith.c.size \tab Single Epithelial Cell Size\cr 
-[,6] \tab Bare.nuclei \tab Bare Nuclei\cr 
-[,7] \tab Bl.cromatin \tab Bland Chromatin\cr 
-[,8] \tab Normal.nucleoli \tab Normal Nucleoli\cr 
-[,9] \tab Mitoses\cr \tab Mitoses\cr}
->>>>>>> f6f88d702f383c68f7e1fffa755414598a2fca1e
+\describe{ 
+   \item{\code{Cl.thickness}}{Clump Thickness}
+   \item{\code{Cell.size}}{Uniformity of Cell Size}
+   \item{\code{Cell.shape}}{Uniformity of Cell Shape}
+   \item{\code{Marg.adhesion}}{Marginal Adhesion}
+   \item{\code{Epith.c.size}}{Single Epithelial Cell Size}
+   \item{\code{Bare.nuclei}}{Bare Nuclei}
+   \item{\code{Bl.cromatin}}{Bland Chromatin}
+   \item{\code{Normal.nucleoli}}{Normal Nucleoli}
+   \item{\code{Mitoses}}{Mitoses}
+ }
 }
 \source{
 \itemize{ \item Creator: Dr. WIlliam H. Wolberg (physician);
-University of Wisconsin Hospital ;Madison; Wisconsin; USA \item Donor: Olvi
-Mangasarian (mangasarian@cs.wisc.edu) \item Received: David W. Aha
+University of Wisconsin Hospital ;Madison; Wisconsin; USA 
+          \item Donor: Olvi
+Mangasarian (mangasarian@cs.wisc.edu) 
+          \item Received: David W. Aha
 (aha@cs.jhu.edu) } These data have been taken from the UCI Repository Of
-Machine Learning Databases at \itemize{ \item
-\url{ftp://ftp.ics.uci.edu/pub/machine-learning-databases} \item
-\url{http://www.ics.uci.edu/~mlearn/MLRepository.html} } and were converted
+Machine Learning Databases at 
+\itemize{ \item
+\url{ftp://ftp.ics.uci.edu/pub/machine-learning-databases} 
+          \item
+\url{http://www.ics.uci.edu/~mlearn/MLRepository.html} 
+ } and were converted
 to R format by Evgenia Dimitriadou.
 }
 \usage{

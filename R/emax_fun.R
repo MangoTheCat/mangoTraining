@@ -1,6 +1,8 @@
 #' Function to calculate Emax
 #'
-#' Calculation used for Emax in Mango Training materials
+#' Calculation used for Emax in Mango Training materials. Note:  This function has be renamed using tidyverse-style snake_case
+#' naming conventions. However the original name of the function has been kept to ensure backwards compatibility with the book SAMS
+#' Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #' 
 #' @param Dose User provided dose values
 #' @param E0 Effect at time 0

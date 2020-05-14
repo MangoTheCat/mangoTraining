@@ -5,7 +5,7 @@
 \alias{carriers}
 \title{Carrier data}
 \format{
-A dataframe with 1738 observations and 2 variables
+A dataframe with 1492 observations and 2 variables
 \describe{
    \item{\code{Code}}{A character string giving the IATA code for the carrier}
    \item{\code{Description}}{Carrier name/description}

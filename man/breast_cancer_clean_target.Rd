@@ -5,16 +5,12 @@
 \alias{breast_cancer_clean_target}
 \title{Wisconsin Breast Cancer Database}
 \format{
-<<<<<<< HEAD
-
-=======
 A list containing a training and test dataset. These come from a data frame 
-with 699 observations on 11 variables, however only the target class has been kept. 
+with 699 observations on 11 variables, however only the target classes have been kept. 
 There is a train to test ratio of 0.8. 
-
-\tabular{cll}{ 
-[,1] \tab Class.Benign \tab Whether the sample was classified as benign \cr
-[,2] \tab Class.malignant \tab Whether the sample was classified as malignant\cr
+\describe{ 
+   \item{\code{Class.Benign}}{Whether the sample was classified as benign}
+   \item{\code{Class.malignant}}{Whether the sample was classified as malignant}
  }
 
 2. Zhang,J. (1992). Selecting typical instances in instance-based learning.
@@ -31,7 +27,6 @@ Newman, D.J. & Hettich, S. & Blake, C.L. & Merz, C.J. (1998).  UCI
 Repository of machine learning databases
 [http://www.ics.uci.edu/~mlearn/MLRepository.html]. Irvine, CA: University
 of California, Department of Information and Computer Science.
->>>>>>> f6f88d702f383c68f7e1fffa755414598a2fca1e
 }
 \source{
 \itemize{ \item Creator: Dr. WIlliam H. Wolberg (physician);

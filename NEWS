@@ -1,6 +1,8 @@
 Version 1.1:
-    Updated following objects to use snake_case: ...
-    Added tests for functions:...
-    Added the following data sets: ...
+    Updated following objects to use snake_case: `demoData`, `dowJonesData`, `emaxData`, `messyData`, `missingPk`, `pkData`, `policyData`, `runData`, `tubeData`, `xpData`, `emaxFun`, `logisticFun`.
+    Added tests for functions: `emax_fun` and `logistic_fun` (formerly `emaxFun` and `logisticFun` respectively)
+    Added the following data sets: `auto_mpg`, `bbc_articles`, `bbc_business_123`, `bbc_politics_123`, `book_sections`, `boston`, `breast_cancer`, `breast_cancer_clean_features`, `breast_cancer_clean_target`, `carriers`, `commute`, `students`, `x_iris`, `y_iris`.
     Updated DESCRIPTION file for latest maintainers and new conventions
+    The following datasets (converted to snake_case) from Mango training courses could not be added due to lack of documentation available, however if these can be found, they will be included in subsequent versions: `airline_sentiment_tweets`, `airports`, `body_image`, `bridges`, `global_temps`, `imdb_reviews`, `london`, `measles`, `olympics`, `walking`, `word_weights`
+    
     

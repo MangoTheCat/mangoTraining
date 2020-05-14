@@ -5,9 +5,25 @@
 \alias{breast_cancer}
 \title{Wisconsin Diagnostic Breast Cancer (WDBC)}
 \format{
-\code{breast_cancer} is a \code{data.frame} with 22 columns. The first column
+\code{breast_cancer} is a \code{tibble} with 22 columns. The first column
 is an ID column. The second indicates whether the sample is classified as benign or malignant.
-The remaining columns contain measurements for 20 features.
+The remaining columns contain measurements for 20 features. Ten real-valued features are computed
+for each cell nucleus. The references listed below contain detailed descriptions of how these features
+are computed.  The mean, and "worst" (or largest - mean of the three largest values) of these features were computed
+for each image, resulting in 20 features. Below are descriptions of these features where *
+should be replaced by either \code{mean} or \code{worst}.
+\describe{
+   \item{\code{*_radius}}{mean of distances from center to points on the perimeter}
+   \item{\code{*_texture}}{standard deviation of gray-scale values}
+   \item{\code{*_perimeter}}{perimeter value}
+   \item{\code{*_area}}{area value}
+   \item{\code{*_smoothness}}{local variation in radius lengths}
+   \item{\code{*_compactness}}{perimeter^2 / area - 1.0}
+   \item{\code{*_concavity}}{severity of concave portions of the contour}
+   \item{\code{*_concave_points}}{number of concave portions of the contour}
+   \item{\code{*_symmetry}}{symmetry value}
+   \item{\code{*_fractal_dimension}}{"coastline approximation" - 1}
+}
 }
 \source{
 \url{https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)}
@@ -23,21 +39,8 @@ The data contain measurements on cells in suspicious lumps in a women's
 breast. Features are computed from a digitized image of a fine needle
 aspirate (FNA) of a breast mass. They describe characteristics of the cell
 nuclei present in the image. All samples are classsified as either
-\emph{benign} or 
+\emph{benign} or
 \emph{malignant}.
-}
-\details{
-Ten real-valued features are computed for each cell nucleus: \cr a) radius
-(mean of distances from center to points on the perimeter) \cr b) texture
-(standard deviation of gray-scale values) \cr c) perimeter \cr d) area \cr
-e) smoothness (local variation in radius lengths) \cr f) compactness
-(perimeter^2 / area - 1.0) \cr g) concavity (severity of concave portions of
-the contour) \cr h) concave points (number of concave portions of the
-contour) \cr i) symmetry \cr j) fractal dimension ("coastline approximation"
-- 1) \cr The references listed below contain detailed descriptions of how
-these features are computed.  The mean, and "worst" or
-largest (mean of the three largest values) of these features were computed
-for each image, resulting in 20 features.
 }
 \note{
 This breast cancer database was obtained from the University of

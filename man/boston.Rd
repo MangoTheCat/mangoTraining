@@ -3,25 +3,25 @@
 \docType{data}
 \name{boston}
 \alias{boston}
-\title{Housing Values in Suburbs of Boston
-The \code{Boston} data frame has 506 rows and 14 columns.}
+\title{Boston housing dataset}
 \format{
 This data frame contains the following columns: 
 \describe{
-   \item{list("crim")}{Per capita crime rate by town.} 
-   \item{list("zn")}{proportion of residential land zoned for lots over 25,000 sq.ft.}
-   \item{list("indus")}{ proportion of non-retail business acres per town.  }
-   \item{list("chas")}{ Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).  } 
-   \item{list("nox")}{ nitrogen oxides concentration (parts per 10 million).  } 
-   \item{list("rm")}{ average number of rooms per dwelling.  } 
-   \item{list("age")}{ proportion of owner-occupied units built prior to 1940.  } 
-   \item{list("dis")}{ weighted mean of distances to five Boston employment centres.  } 
-   \item{list("rad")}{ index of accessibility to radial highways.  } 
-   \item{list("tax")}{ full-value property-tax rate per \$10,000.  } 
-   \item{list("ptratio")}{ pupil-teacher ratio by town.  }
-   \item{list("black")}{ \eqn{1000(Bk - 0.63)^2} where \eqn{Bk} is the proportion of blacks by town.  } 
-   \item{list("lstat")}{ lower status of the population (percent).  } 
-   \item{list("medv")}{ median value of owner-occupied homes in \$1000s.  }
+   \item{\code{tract}}{Census tract}
+   \item{\code{medv}}{Median value of owner-occupied homes in \$1000s.  }
+   \item{\code{crim}}{Per capita crime rate by town.} 
+   \item{\code{zn}}{Proportion of residential land zoned for lots over 25,000 sq.ft.}
+   \item{\code{indus}}{Proportion of non-retail business acres per town.  }
+   \item{\code{chas}}{Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).  } 
+   \item{\code{nox}}{Nitrogen oxides concentration (parts per 10 million).  } 
+   \item{\code{rm}}{Average number of rooms per dwelling.  } 
+   \item{\code{age}}{Proportion of owner-occupied units built prior to 1940.  } 
+   \item{\code{dis}}{Weighted mean of distances to five Boston employment centres.  } 
+   \item{\code{rad}}{Index of accessibility to radial highways.  } 
+   \item{\code{tax}}{Full-value property-tax rate per \$10,000.  } 
+   \item{\code{ptratio}}{Pupil-teacher ratio by town.  }
+   \item{\code{b}}{\eqn{1000(Bk - 0.63)^2} where \eqn{Bk} is the proportion of blacks by town.  } 
+   \item{\code{lstat}}{Lower status of the population (percent).  } 
  }
 }
 \source{
@@ -36,7 +36,9 @@ Identifying Influential Data and Sources of Collinearity.} New York: Wiley.
 boston
 }
 \description{
-Housing Values in Suburbs of Boston
-The \code{Boston} data frame has 506 rows and 14 columns.
+Housing Values in Suburbs of Boston.
+}
+\details{
+The \code{boston} data frame has 506 rows and 15 columns.
 }
 \keyword{datasets}
