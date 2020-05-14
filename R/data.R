@@ -1,7 +1,7 @@
 
 #' Auto MPG Data Set
 #' 
-#' Revised from CMU StatLib library, data concerns city-cycle fuel consumption.
+#' Data concerns city-cycle fuel consumption - revised from CMU StatLib library.
 #' 
 #' @name auto_mpg
 #' @docType data
@@ -97,13 +97,13 @@
 
 #' Boston housing dataset
 #' 
-#' Housing Values in Suburbs of Boston.
+#' Dataset containing housing values in the suburbs of Boston.
 #' 
 #' The \code{boston} data frame has 506 rows and 15 columns.
 #' @format This data frame contains the following columns: 
 #' \describe{
 #'    \item{\code{tract}}{Census tract}
-#'    \item{\code{medv}}{Median value of owner-occupied homes in \$1000s.  }
+#'    \item{\code{medv}}{Median value of owner-occupied homes in $1,000s.  }
 #'    \item{\code{crim}}{Per capita crime rate by town.} 
 #'    \item{\code{zn}}{Proportion of residential land zoned for lots over 25,000 sq.ft.}
 #'    \item{\code{indus}}{Proportion of non-retail business acres per town.  }
@@ -113,7 +113,7 @@
 #'    \item{\code{age}}{Proportion of owner-occupied units built prior to 1940.  } 
 #'    \item{\code{dis}}{Weighted mean of distances to five Boston employment centres.  } 
 #'    \item{\code{rad}}{Index of accessibility to radial highways.  } 
-#'    \item{\code{tax}}{Full-value property-tax rate per \$10,000.  } 
+#'    \item{\code{tax}}{Full-value property-tax rate per $10,000.  } 
 #'    \item{\code{ptratio}}{Pupil-teacher ratio by town.  }
 #'    \item{\code{b}}{\eqn{1000(Bk - 0.63)^2} where \eqn{Bk} is the proportion of blacks by town.  } 
 #'    \item{\code{lstat}}{Lower status of the population (percent).  } 
@@ -134,7 +134,7 @@
 #' Wisconsin Diagnostic Breast Cancer (WDBC)
 #'
 #' The data contain measurements on cells in suspicious lumps in a women's
-#' breast. Features are computed from a digitized image of a fine needle
+#' breast. Features are computed from a digitised image of a fine needle
 #' aspirate (FNA) of a breast mass. They describe characteristics of the cell
 #' nuclei present in the image. All samples are classsified as either
 #' \emph{benign} or
@@ -319,11 +319,13 @@
 
 #' Demographics data
 #' 
-#' This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+#' A simulated dataset containing demographic data about a number of subjects.
+#' 
+#' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #'  
 #' @format  A data frame with 33 observations on the following 7 demographic variables. 
-#' This data is designed so that it can be merged with the dataset pkData. 
+#' This data is designed so that it can be merged with the dataset pk_data. 
 #'  \describe{
 #'    \item{\code{Subject}}{A numeric vector giving the subject identifier}
 #'    \item{\code{Sex}}{A factor with levels \code{F} \code{M}}
@@ -345,7 +347,10 @@
 
 #' Dow Jones Index Data
 #' 
-#' This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+#' Dataset containing the Dow Jones Index between 2014-01-01 and 2015-01-01, which is a stock market index that measures the stock performance of 30 large 
+#' companies listed on stock exchanges in the United States.
+#' 
+#' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #' 
 #' @format  A data frame with 252 observations on the following 7 variables containing data
@@ -382,7 +387,7 @@
 
 #' Data that can be used to fit or plot Emax models
 #' 
-#' This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+#' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #' 
 #' @format   A data frame with 64 observations on the following 6 variables.
@@ -405,7 +410,9 @@
 
 #' Messy clinical trial data
 #' 
-#' This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+#' Simulated dataset for examples of reshaping data
+#' 
+#' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #' 
 #' @aliases messy_data
@@ -432,7 +439,7 @@
 
 #' Clinical trial data
 #' 
-#' This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+#' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #' 
 #' @aliases missing_pk
@@ -444,7 +451,7 @@
 #'  \item{\code{Conc}}{a numeric vector giving the observed concentration}
 #'  }
 #'  
-#' @source Simulated from pkData
+#' @source Simulated from `pk_data`
 "missing_pk"
 
 #' @rdname missing_pk
@@ -455,7 +462,7 @@
 
 #' Typical PK data
 #' 
-#' This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+#' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #' 
 #' @aliases pk_data
@@ -477,7 +484,7 @@
 
 #' Insurance Policy Data
 #' 
-#' This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+#' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #' 
 #' @aliases policy_data
@@ -510,7 +517,7 @@
 
 #' Typical PK data
 #'
-#' @format   A data frame with 2061 observations on the following 8 variables.
+#' @format A data frame with 2061 observations on the following 8 variables.
 #'  \describe{
 #'    \item{\code{subjid}}{A numeric vector giving the subject ID}
 #'    \item{\code{treat}}{A factor giving the treatment}
@@ -560,7 +567,7 @@
 
 #' London Tube Performace data
 #' 
-#' This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+#' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #' 
 #' @aliases tube_data
@@ -615,7 +622,7 @@
 
 #' Typical NONMEM data
 #' 
-#' This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
+#' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 #' 
 #' @aliases xp_data

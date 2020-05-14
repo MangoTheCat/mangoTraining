@@ -15,7 +15,7 @@ A data frame with 165 observations on the following 4 variables.
  }
 }
 \source{
-Simulated from pkData
+Simulated from `pk_data`
 }
 \usage{
 missing_pk
@@ -23,6 +23,9 @@ missing_pk
 missingPk
 }
 \description{
+Clinical trial data
+}
+\details{
 This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 }

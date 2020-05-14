@@ -27,6 +27,10 @@ dow_jones_data
 dowJonesData
 }
 \description{
+Dataset containing the Dow Jones Index between 2014-01-01 and 2015-01-01, which is a stock market index that measures the stock performance of 30 large 
+companies listed on stock exchanges in the United States.
+}
+\details{
 This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 }

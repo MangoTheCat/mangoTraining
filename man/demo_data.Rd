@@ -7,7 +7,7 @@
 \title{Demographics data}
 \format{
 A data frame with 33 observations on the following 7 demographic variables. 
-This data is designed so that it can be merged with the dataset pkData. 
+This data is designed so that it can be merged with the dataset pk_data. 
  \describe{
    \item{\code{Subject}}{A numeric vector giving the subject identifier}
    \item{\code{Sex}}{A factor with levels \code{F} \code{M}}
@@ -27,6 +27,9 @@ demo_data
 demoData
 }
 \description{
+A simulated dataset containing demographic data about a number of subjects.
+}
+\details{
 This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
 }

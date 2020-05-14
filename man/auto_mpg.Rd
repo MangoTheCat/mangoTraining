@@ -26,7 +26,7 @@ http://archive.ics.uci.edu/ml/datasets/Auto+MPG
 auto_mpg
 }
 \description{
-Revised from CMU StatLib library, data concerns city-cycle fuel consumption.
+Data concerns city-cycle fuel consumption - revised from CMU StatLib library.
 }
 \references{
 Quinlan,R. (1993). Combining Instance-Based and Model-Based
