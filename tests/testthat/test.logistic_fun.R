@@ -58,3 +58,11 @@ test_that("logistic_fun 3", {
 })
 
 
+test_that("We can also use logisticFun", {
+  
+  logi1 <- logistic_fun(Dose = 50, EC50 = 75, Emax = 0.6, rc = 9)
+  logi2 <- logisticFun(Dose = 50, EC50 = 75, Emax = 0.6, rc = 9)
+  
+  expect_equal(logi1, logi2)
+  
+})

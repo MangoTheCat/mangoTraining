@@ -51,3 +51,23 @@ test_that("emax_fun 3", {
   
 })
 
+test_that("We can also use emaxFun", {
+  # Run `emax_fun()` function
+  set.seed(2829)
+  em1 <- emax_fun(Dose = 100*rnorm(1), 
+                 ED50 = 100,
+                 E0 = -12,
+                 Emax = 4000)
+  
+  # Run `emax_fun()` function
+  set.seed(2829)
+  em2 <- emaxFun(Dose = 100*rnorm(1), 
+                 ED50 = 100,
+                 E0 = -12,
+                 Emax = 4000)
+  
+  expect_equal(em1, em2)
+  
+})
+
+
