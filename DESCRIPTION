@@ -1,17 +1,36 @@
 Package: mangoTraining
-Type: Package
 Title: Mango Solutions Training Datasets
-Version: 1.0-7
-Date: 2017-01-17
-Author: Mango Solutions <rin24hours@mango-solutions.com>
-Maintainer: Aimee Gott <agott@mango-solutions.com>
-Contact: Mango Solutions <rin24hours@mango-solutions.com>
-Description: Datasets designed to be used in conjunction with Mango Solutions
-    training materials and the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
+Version: 1.1
+Authors@R:
+    c(person(given = "Mango Solutions",
+             role = c("aut", "cre"),
+             email = c("training@mango-solutions.com", "rin24hours@mango-solutions.com")),
+      person(given = "Karina",
+             family = "Marks",
+             role = c("ctb"),
+             email = "kmarks@mango-solutions.com"),
+      person(given = "Aimee",
+             family = "Gott",
+             role = "aut"),
+      person(given = "Andrew",
+             family = "Little",
+             role = c("ctb", "dtc", "rev")),
+      person(given = "Owen",
+             family = "Jones",
+             role = "ctb"))
+Description: Datasets to be used primarly in conjunction with Mango Solutions
+    training materials but also for the book 'SAMS Teach Yourself R in 24 Hours' (ISBN: 978-0-672-33848-9).
+    Version 1.0-7 is largely for use with the book; however, version 1.1 has a much greater focus on use with
+    training materials, whilst retaining compatibility with the book.
 URL: http://www.mango-solutions.com
 Depends:
-    R (>= 2.10.0)
+    R (>= 3.5.0)
+Imports:
+    tibble
+Suggests: 
+    testthat
 License: GPL-2
 LazyLoad: yes
 LazyData: yes
-RoxygenNote: 5.0.1
+RoxygenNote: 7.1.0
+BugReports: https://github.com/MangoTheCat/mangoTraining/issues

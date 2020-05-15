@@ -1,0 +1,30 @@
+language: r
+sudo: false
+cache: packages
+
+os:
+  - linux
+#- osx
+
+warnings_are_errors: false
+
+before_install:
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install libgit2; fi
+
+r:
+  - release
+  - devel
+  - oldrel
+
+r_packages:
+  - testthat
+  - covr
+
+env:
+  global:
+  - _R_CHECK_FORCE_SUGGESTS_=false
+  - MAKEFLAGS="-j 2"
+  - TRAVIS_CXXFLAGS="-Wall -Wextra -pedantic -Werror"
+
+after_success:
+  - Rscript -e 'library(covr); codecov()'
