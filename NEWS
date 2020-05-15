@@ -1,7 +1,7 @@
 Version 1.1:
     Updated following objects to use snake_case: `demoData`, `dowJonesData`, `emaxData`, `messyData`, `missingPk`, `pkData`, `policyData`, `runData`, `tubeData`, `xpData`, `emaxFun`, `logisticFun`.
     Added tests for functions: `emax_fun` and `logistic_fun` (formerly `emaxFun` and `logisticFun` respectively)
-    Added the following data sets: `auto_mpg`, `bbc_articles`, `bbc_business_123`, `bbc_politics_123`, `body_image`, `book_sections`, `boston`, `breast_cancer`, `breast_cancer_clean_features`, `breast_cancer_clean_target`, `carriers`, `commute`, `students`, `x_iris`, `y_iris`.
+    Added the following data sets: `auto_mpg`, `bbc_articles`, `bbc_articles_full`, `bbc_business_123`, `bbc_politics_123`, `body_image`, `book_sections`, `boston`, `breast_cancer`, `breast_cancer_clean_features`, `breast_cancer_clean_target`, `carriers`, `commute`, `students`, `x_iris`, `y_iris`.
     Updated DESCRIPTION file for latest maintainers and new conventions
 
 

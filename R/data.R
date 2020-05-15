@@ -41,6 +41,25 @@
 "bbc_articles"
 
 
+#' Full BBC Articles data
+#' 
+#'
+#' @details A collection of business and politics BBC news articles. Each row represents each article (document), 
+#' with a document ID and a string of the text content with stop words removed. This is a 'dirty' version of the 
+#' \code{bbc_articles} dataset, where we now have a string of text for each observation, as opposed to a single word.
+#' 
+#' @format A tibble, with 927 observations of separate documents and their contents. This results in two columns.
+#'    \describe{
+#'       \item{\code{words}}{The words from a given article}
+#'       \item{\code{document}}{The 'document' (article) ID}
+#'   } 
+#'
+#' @source 
+#'    \itemize{\item{\url{https://www.bbc.co.uk/news}}}
+#'
+"bbc_articles_full"
+
+
 #' BBC Business article data
 #' 
 #' A single BBC Business article (not included in the full BBC articles dataset), given in tidy, one word per row format.
