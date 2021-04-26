@@ -29,7 +29,7 @@ Mangasarian (mangasarian@cs.wisc.edu)
 (aha@cs.jhu.edu) } These data have been taken from the UCI Repository Of
 Machine Learning Databases at 
 \itemize{ \item
-\url{ftp://ftp.ics.uci.edu/pub/machine-learning-databases} 
+\url{http://archive.ics.uci.edu/ml/datasets.php} 
           \item
 \url{http://www.ics.uci.edu/~mlearn/MLRepository.html} 
  } and were converted

@@ -269,7 +269,7 @@
 #' (aha@cs.jhu.edu) } These data have been taken from the UCI Repository Of
 #' Machine Learning Databases at 
 #' \itemize{ \item
-#' \url{ftp://ftp.ics.uci.edu/pub/machine-learning-databases} 
+#' \url{http://archive.ics.uci.edu/ml/datasets.php} 
 #'           \item
 #' \url{http://www.ics.uci.edu/~mlearn/MLRepository.html} 
 #'  } and were converted
@@ -309,7 +309,7 @@
 #' Mangasarian (mangasarian@cs.wisc.edu) \item Received: David W. Aha
 #' (aha@cs.jhu.edu) } These data have been taken from the UCI Repository Of
 #' Machine Learning Databases at \itemize{ \item
-#' \url{ftp://ftp.ics.uci.edu/pub/machine-learning-databases} \item
+#' \url{http://archive.ics.uci.edu/ml/datasets.php} \item
 #' \url{http://www.ics.uci.edu/~mlearn/MLRepository.html} } and were converted
 #' to R format by Evgenia Dimitriadou.
 #' @keywords datasets
