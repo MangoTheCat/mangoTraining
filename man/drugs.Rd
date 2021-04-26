@@ -13,7 +13,7 @@ A data frame with 20 observations on the following 3 variables.
  }
 }
 \source{
-Generated from example data used in \url{http://www.stattutorials.com/SAS/TUTORIAL-PROC-GLM-REPEAT.htm}
+Generated from example data used in \url{https://www.stattutorials.com/SAS/TUTORIAL-PROC-GLM-REPEAT.htm}
 }
 \usage{
 drugs
