@@ -644,7 +644,7 @@
 #'    \item{\code{Stations}}{A numeric vector giving the number of stations on the line}
 #'  }
 #'  
-#' @source This data was taken from "http://data.london.gov.uk/datafiles/transport/assembly-tube-performance.xls"
+#' @source This data was taken from "https://data.london.gov.uk/dataset/tube-network-performance-data-transport-committee-report"
 "tube_data"
 
 #' @rdname tube_data
