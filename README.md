@@ -15,7 +15,7 @@ R package containing datasets used for Mango Solutions training courses and for 
 
 ## Installation
 
-For the latest devlopment version use remotes:
+For the latest development version use remotes:
 
 ```r
 remotes::install_github("mangothecat/mangoTraining")
@@ -50,7 +50,7 @@ head(demo_data, 3)
 ## Updates
 
 Since version 1.1 there have been updates to the naming conventions of the package to align with tidyverse guidelines (i.e. using
-snake_case); old camelCase names for data/functions are still included to allow for backwards compatability with the book.
+snake_case); old camelCase names for data/functions are still included to allow for backwards compatibility with the book.
 
 For example, you can use both `demo_data` and `demoData` for the same dataset:
 

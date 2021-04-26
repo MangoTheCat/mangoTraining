@@ -5,7 +5,7 @@
 \alias{y_iris}
 \title{Iris class data for Species classification}
 \format{
-A list of two named matrices, 'train' and 'test', respresenting the training and test sets for the predictors. These have 3 indicator 
+A list of two named matrices, 'train' and 'test', representing the training and test sets for the predictors. These have 3 indicator 
 columns each, with 120 and 30 rows respectively.
    \describe{
       \item{\code{Species.setosa}}{Indicator column for the species class setosa}

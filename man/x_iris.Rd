@@ -5,7 +5,7 @@
 \alias{x_iris}
 \title{Iris predictors data for Species classification}
 \format{
-A list of two named matrices, 'train' and 'test', respresenting the training and test sets for the predictors. These have 4 
+A list of two named matrices, 'train' and 'test', representing the training and test sets for the predictors. These have 4 
 columns each, with 120 and 30 rows respectively.
  \describe{
     \item{\code{Sepal.Length}}{Sepal length}
@@ -27,7 +27,7 @@ This data was taken from Edgar Anderson's famous iris data set. This gives the m
 of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. 
 The species are Iris setosa, versicolor, and virginica. However, the species is seen as the target variable, and as such
 has been removed from this dataset, whilst being added to the counterpart \code{y_iris} dataset. Furthermore, the 4 remaining 
-'predictor' variables have been seperated into a training and test set with a ratio of 4:1, followed by centering and scaling.
+'predictor' variables have been separated into a training and test set with a ratio of 4:1, followed by centering and scaling.
 }
 \references{
 Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988) The New S Language. Wadsworth & Brooks/Cole.

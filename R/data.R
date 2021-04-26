@@ -175,7 +175,7 @@
 #' The data contain measurements on cells in suspicious lumps in a women's
 #' breast. Features are computed from a digitised image of a fine needle
 #' aspirate (FNA) of a breast mass. They describe characteristics of the cell
-#' nuclei present in the image. All samples are classsified as either
+#' nuclei present in the image. All samples are classified as either
 #' \emph{benign} or
 #' \emph{malignant}.
 #'
@@ -415,7 +415,7 @@
 #' 
 #' @format  A data frame with 20 observations on the following 3 variables.
 #'  \describe{
-#'    \item{\code{Subj}}{A numeric vector, givng the subject ID}
+#'    \item{\code{Subj}}{A numeric vector, giving the subject ID}
 #'    \item{\code{Drug}}{A numeric vector giving the drug ID, numbered 1 to 4}
 #'    \item{\code{Value}}{A numeric vector, giving the observation value}
 #'  }
@@ -486,7 +486,7 @@
 #' \describe{
 #'   \item{\code{Subject}}{a numeric vector giving the subject identifier}
 #'   \item{\code{Dose}}{a numeric vector giving the dose group}
-#'   \item{\code{Time}}{a numeric vector giving the obserrvation times}
+#'   \item{\code{Time}}{a numeric vector giving the observation times}
 #'  \item{\code{Conc}}{a numeric vector giving the observed concentration}
 #'  }
 #'  
@@ -531,12 +531,12 @@
 #' \describe{
 #'   \item{\code{Year}}{The four digit year of the policy}
 #'   \item{\code{PolicyNo}}{The policy number}
-#'   \item{\code{TotalPremium}}{The total incurance premium}
+#'   \item{\code{TotalPremium}}{The total insurance premium}
 #'  \item{\code{BonusMalus}}{Discount level}
 #'   \item{\code{WeightClass}}{The weight class of the car}
 #'   \item{\code{Region}}{Region of the car owner}
 #'   \item{\code{Age}}{Age of the main driver}
-#'  \item{\code{Mileage}}{Estimted annual mileage}
+#'  \item{\code{Mileage}}{Estimated annual mileage}
 #'   \item{\code{Usage}}{Car usage}
 #'   \item{\code{PremiumClass}}{Class of the car}
 #'   \item{\code{NoClaims}}{Number of previous claims}
@@ -625,7 +625,7 @@
 #' 
 "students"
 
-#' London Tube Performace data
+#' London Tube Performance data
 #' 
 #' @details This dataset has be renamed using tidyverse-style snake_case naming conventions. However the original name of the dataset has been kept to ensure 
 #' backwards compatibility with the book SAMS Teach Yourself R in 24 Hours (ISBN: 978-0-672-33848-9).
@@ -660,10 +660,10 @@
 #' of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. 
 #' The species are Iris setosa, versicolor, and virginica. However, the species is seen as the target variable, and as such
 #' has been removed from this dataset, whilst being added to the counterpart \code{y_iris} dataset. Furthermore, the 4 remaining 
-#' 'predictor' variables have been seperated into a training and test set with a ratio of 4:1, followed by centering and scaling.
+#' 'predictor' variables have been separated into a training and test set with a ratio of 4:1, followed by centering and scaling.
 #' 
 #' 
-#' @format A list of two named matrices, 'train' and 'test', respresenting the training and test sets for the predictors. These have 4 
+#' @format A list of two named matrices, 'train' and 'test', representing the training and test sets for the predictors. These have 4 
 #' columns each, with 120 and 30 rows respectively.
 #'  \describe{
 #'     \item{\code{Sepal.Length}}{Sepal length}
@@ -729,7 +729,7 @@
 #' set with a ratio of 4:1. Following this the species class has been one-hot encoded to give three columns, one for each species level.
 #' 
 #' 
-#' @format  A list of two named matrices, 'train' and 'test', respresenting the training and test sets for the predictors. These have 3 indicator 
+#' @format  A list of two named matrices, 'train' and 'test', representing the training and test sets for the predictors. These have 3 indicator 
 #' columns each, with 120 and 30 rows respectively.
 #'    \describe{
 #'       \item{\code{Species.setosa}}{Indicator column for the species class setosa}
