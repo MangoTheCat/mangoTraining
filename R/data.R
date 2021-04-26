@@ -420,7 +420,7 @@
 #'    \item{\code{Value}}{A numeric vector, giving the observation value}
 #'  }
 #'  
-#' @source Generated from example data used in \url{http://www.stattutorials.com/SAS/TUTORIAL-PROC-GLM-REPEAT.htm}
+#' @source Generated from example data used in \url{https://www.stattutorials.com/SAS/TUTORIAL-PROC-GLM-REPEAT.htm}
 "drugs"
 
 
