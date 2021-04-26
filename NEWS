@@ -1,5 +1,6 @@
 Version 1.1.1:
     Replaced references to ftp:// sites in help files with http:// sites. 
+    Maintainer change.
 
 Version 1.1:
     Updated following objects to use snake_case: `demoData`, `dowJonesData`, `emaxData`, `messyData`, `missingPk`, `pkData`, `policyData`, `runData`, `tubeData`, `xpData`, `emaxFun`, `logisticFun`.
