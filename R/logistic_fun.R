@@ -10,6 +10,8 @@
 #' @param Emax Maximum effect
 #' @param rc rate constant
 #' 
+#' @return Numeric value/vector representing the response value.
+#'
 #' @examples logistic_fun(Dose = 50)
 #' 
 #' @export

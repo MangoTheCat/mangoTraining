@@ -9,6 +9,8 @@
 #' @param ED50 50\% of maximum effect
 #' @param Emax Maximum effect 
 #' 
+#' @return Numeric value/vector representing the response value.
+#' 
 #' @examples emax_fun(Dose = 100)
 #' 
 #' @export
