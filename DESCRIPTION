@@ -8,11 +8,11 @@ Authors@R:
       person(given = "Andrew",
              family = "Little",
              role = c("aut", "cre", "ctb", "dtc", "rev"),
-             email = "alittle@mango-solutions.com"),
+             email = "alittle@ascent.io"),
       person(given = "Karina",
              family = "Marks",
              role = c("aut", "ctb"),
-             email = "kmarks@mango-solutions.com"),
+             email = "kmarks@ascent.io"),
       person(given = "Aimee",
              family = "Gott",
              role = "aut"),
@@ -35,4 +35,4 @@ License: GPL-2
 LazyLoad: yes
 LazyData: yes
 RoxygenNote: 7.1.1
-BugReports: https://github.com/MangoTheCat/mangoTraining/issues
+BugReports: https://github.com/MangoTheCat/ascentTraining/issues
