@@ -1,8 +1,8 @@
-Package: mangoTraining
-Title: Mango Solutions Training Datasets
-Version: 1.1.1
+Package: ascentTraining
+Title: Ascent Training Datasets
+Version: 1.1.2
 Authors@R:
-    c(person(given = "Mango Solutions",
+    c(person(given = "Ascent",
              role = c("aut"),
              email = c("training@mango-solutions.com", "rin24hours@mango-solutions.com")),
       person(given = "Andrew",
@@ -20,11 +20,11 @@ Authors@R:
              family = "Jones",
              role = "ctb"))
 Contact: 
-Description: Datasets to be used primarily in conjunction with Mango Solutions
+Description: Datasets to be used primarily in conjunction with Ascent
     training materials but also for the book 'SAMS Teach Yourself R in 24 Hours' (ISBN: 978-0-672-33848-9).
     Version 1.0-7 is largely for use with the book; however, version 1.1 has a much greater focus on use with
     training materials, whilst retaining compatibility with the book.
-URL: https://www.mango-solutions.com/
+URL: https://www.ascent.io/
 Depends:
     R (>= 3.5.0)
 Imports:
