@@ -8,9 +8,9 @@
 <!-- badges: end -->
 
 
-# mangoTraining
+# ascentTraining
 
-R package containing datasets used for Mango Solutions training courses and for the book SAMS Teach Yourself R in 24 Hours. 
+R package containing datasets used for Ascent training courses and for the book SAMS Teach Yourself R in 24 Hours. 
 
 
 ## Installation
@@ -18,13 +18,13 @@ R package containing datasets used for Mango Solutions training courses and for 
 For the latest development version use remotes:
 
 ```r
-remotes::install_github("mangothecat/mangoTraining")
+remotes::install_github("mangothecat/ascentTraining")
 ```
 
 For the stable CRAN release:
 
 ```r
-install.packages("mangoTraining")
+install.packages("ascentTraining")
 ```
 
 ## Usage
@@ -32,14 +32,14 @@ install.packages("mangoTraining")
 To view all datasets within the package:
 
 ```r
-data(package = "mangoTraining")
+data(package = "ascentTraining")
 ```
 
 Then just load in the package and use any of the data sets:
 
 
 ```r
-library(mangoTraining)
+library(ascentTraining)
 head(demo_data, 3)
   Subject Sex Age Weight Height  BMI Smokes
 1       1   M  43     57    166 20.7     No
