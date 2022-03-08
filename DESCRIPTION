@@ -28,11 +28,13 @@ URL: https://www.ascent.io/
 Depends:
     R (>= 3.5.0)
 Imports:
-    tibble
+    tibble,
+    palmerpenguins
 Suggests: 
     testthat
 License: GPL-2
 LazyLoad: yes
 LazyData: yes
+Encoding: UTF-8
 RoxygenNote: 7.1.1
 BugReports: https://github.com/MangoTheCat/ascentTraining/issues
