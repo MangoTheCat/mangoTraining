@@ -18,6 +18,9 @@ Authors@R:
              role = "aut"),
       person(given = "Owen",
              family = "Jones",
+             role = "ctb"),
+      person(given = "Harry",
+             family = "Alexander",
              role = "ctb"))
 Contact: 
 Description: Datasets to be used primarily in conjunction with Ascent
